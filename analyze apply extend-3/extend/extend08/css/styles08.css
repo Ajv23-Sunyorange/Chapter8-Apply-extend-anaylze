@@ -1,0 +1,28 @@
+/*
+Author: Anthony Vecchiarello
+Date: 5/8/24
+File Name: styles08.css
+*/
+
+/* Style rule for body background color */
+body {
+    background-color: #ffe5dc;
+    font-family: sans-serif;
+}
+
+/* Style rule for table border color, box shadow, and sans-serif font */
+table {
+    border: 2px solid #fd4d0c;
+    box-shadow: 3px 3px 5px #792101;
+    font-family: sans-serif;
+}
+
+/* Style rule for table data border color */
+td {
+    border: 1px solid #a22c02;
+}
+
+/* Style rule for odd rows background color */
+tr:nth-child(odd) {
+    background-color: #fe9772; 
+}
